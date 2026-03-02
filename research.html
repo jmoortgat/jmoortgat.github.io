@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Research — Joachim Moortgat</title>
+  <meta name="description" content="Research by Joachim Moortgat: computational geosciences, subsurface flow, AI-powered Earth observation, BuckAI Observatory.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <!-- ===== NAVIGATION ===== -->
+  <nav class="nav">
+    <div class="nav-inner">
+      <a href="index.html" class="nav-brand">Joachim Moortgat</a>
+      <button class="nav-hamburger" id="navHamburger" aria-label="Toggle navigation" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+      <ul class="nav-links" id="navLinks">
+        <li><a href="index.html">About</a></li>
+        <li><a href="research.html">Research</a></li>
+        <li><a href="publications.html">Publications</a></li>
+        <li><a href="teaching.html">Teaching</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <div class="page-wrapper">
+    <div class="container">
+      <section class="section">
+        <h1 class="section-title">Research</h1>
+        <p class="section-intro">
+          My research sits at the intersection of computational science and Earth observation, spanning two complementary directions. On one side is a 15-year program in numerical methods for subsurface fluid dynamics — work that began during my postdoc at RERI and has produced tools for CO₂ sequestration, natural hydrogen exploration, and fractured reservoir engineering. On the other is a newer direction, born during my 2020–2021 sabbatical, that applies deep learning to multi-modal satellite imagery at planetary scale. Both directions share a commitment to high-fidelity physics and a focus on problems with real environmental and energy implications.
+        </p>
+      </section>
+
+      <!-- ===================================
+           PILLAR 1: COMPUTATIONAL GEOSCIENCES
+           =================================== -->
+      <section class="pillar-section" id="geo">
+        <div class="pillar-section-header">
+          <span class="pillar-label geo">Pillar 1</span>
+          <h2 class="pillar-section-title">Computational Geosciences &amp; Subsurface Flow</h2>
+        </div>
+        <p class="section-intro">
+          This program started during my 2008–2013 postdoc at the Reservoir Engineering Research Institute (RERI) in Palo Alto, working with Abbas Firoozabadi. For over 15 years I have been developing and applying higher-order finite element methods for compositional multiphase flow in geologically complex, fractured porous media. The work spans fundamental numerical methods, CO₂ sequestration monitoring, shale gas, and — most recently — natural hydrogen systems, for which my group holds 4 patent families with 10 fully issued patents.
+        </p>
+
+        <div class="project-grid">
+
+          <div class="project-card geo-card">
+            <h4>Higher-Order Finite Element Methods</h4>
+            <p>
+              Mixed-hybrid and discontinuous Galerkin finite element methods (MH-FEM and DG-FEM) for multicomponent, multiphase, compressible flow on unstructured 3D grids (hexahedral, prismatic, tetrahedral). These higher-order methods achieve orders-of-magnitude lower numerical dispersion on coarse grids compared to standard finite-difference simulators, enabling accurate compositional modeling on realistic geological geometries.
+            </p>
+          </div>
+
+          <div class="project-card geo-card">
+            <h4>Fractured Reservoir Simulation</h4>
+            <p>
+              Explicit discrete fracture network (DFN) modeling of multiphase flow incorporating capillarity, Fickian diffusion, and gravitational effects. Development of an alternative cross-flow equilibrium model for fractured media. Applications include CO₂ injection in fractured heavy oil reservoirs, water coning, and CO₂-enhanced recovery in naturally fractured systems validated against core-flood experiments.
+            </p>
+          </div>
+
+          <div class="project-card geo-card">
+            <h4>Flow Instabilities &amp; Mixing</h4>
+            <p>
+              Viscous and gravitational fingering in multiphase compressible compositional flow; dissolution-driven convection in geological CO₂ sequestration; scaling relations for onset and growth of instabilities. Fundamental studies of hydro-thermodynamic mixing across phases in porous media, with implications for CO₂ trapping efficiency and enhanced oil recovery.
+            </p>
+          </div>
+
+          <div class="project-card geo-card">
+            <h4>CO₂ Sequestration &amp; Carbon Storage</h4>
+            <p>
+              Reactive transport modeling of CO₂ injection in brine formations; heterogeneity-assisted storage; simulation of the Cranfield (Mississippi) sequestration pilot using high-resolution static models and accurate CPA equation of state. Monitoring via stable isotopes and perfluorocarbon tracers — DOE-funded work (2013–2019) with field applications to Gulf Coast saline aquifers.
+            </p>
+          </div>
+
+          <div class="project-card geo-card">
+            <h4>Shale Gas: Adsorption &amp; Transport</h4>
+            <p>
+              Experimental and theoretical characterization of gas adsorption/desorption in nanoporous organic shales under geological pressure and temperature conditions. Canister desorption testing; supercritical gas adsorption theories; pore structure characterization via NMR and nitrogen adsorption. Applications to unconventional resource assessment in the Ordos Basin and Appalachian plays.
+            </p>
+          </div>
+
+          <div class="project-card geo-card" style="border-left-color: var(--accent);">
+            <h4>Natural Hydrogen Reservoirs <span style="color:var(--accent);font-size:0.78rem">(bridge)</span></h4>
+            <p>
+              Vapor-liquid equilibrium modeling of H₂–water mixtures using a Cubic-Plus-Association Equation-of-State (CPA-EOS); reservoir simulation for natural and stimulated hydrogen production; serpentinization and carbonization of mafic/ultramafic rocks. ARPA-E-funded work (2021–2025) in partnership with Koloma Inc. Four patent families with 10 issued patents in the US, Japan, Saudi Arabia, and South Africa; 22+ additional applications pending worldwide.
+            </p>
+            <p class="pub-ref">4 patent families · 10 issued patents · ARPA-E funded</p>
+          </div>
+
+        </div>
+      </section>
+
+      <!-- ===================================
+           PILLAR 2: AI / BUCKAI
+           =================================== -->
+      <section class="pillar-section" id="ai">
+        <div class="pillar-section-header">
+          <span class="pillar-label ai">Pillar 2</span>
+          <h2 class="pillar-section-title">AI-Powered Earth Observation</h2>
+        </div>
+        <p class="section-intro">
+          This direction began during my 2020–2021 sabbatical, when I first trained fully convolutional neural networks on very-high-resolution commercial satellite imagery. It has since grown into my primary research focus, bringing together deep learning, physics-informed modeling, and multi-sensor satellite data to track Earth surface changes at global scale. In August 2025 this work was institutionalized through the BuckAI Observatory.
+        </p>
+
+        <div class="project-grid">
+
+          <div class="project-card ai-card">
+            <h4>River Classification at Sub-Meter Resolution</h4>
+            <p>
+              Fully convolutional neural networks (FCN) applied to 30 cm panchromatic WorldView/QuickBird commercial imagery for binary river classification. Models achieve &gt;90% precision and recall. Enables tracking of Arctic river channel width changes and snowmelt-driven discharge variations from space at unprecedented resolution.
+            </p>
+            <p class="pub-ref"><em>Remote Sensing of Environment</em>, 2022</p>
+          </div>
+
+          <div class="project-card ai-card">
+            <h4>Super-Resolution Water Classification</h4>
+            <p>
+              Deep neural networks for water classification at 2 m effective resolution from freely available Sentinel-2 multispectral imagery (native 10 m). Super-resolution approach recovers sub-pixel spatial detail for water body delineation — enabling global-scale hydrology without expensive commercial data.
+            </p>
+            <p class="pub-ref"><em>Journal of Hydrology</em>, 2023</p>
+          </div>
+
+          <div class="project-card ai-card">
+            <h4>River Discharge from Hypsometry + AI</h4>
+            <p>
+              Combining river channel geometry (hypsometry derived from ArcticDEM) with remote sensing observations to improve estimates of river discharge in data-sparse Arctic regions. Collaboration with Mike Durand (OSU), Ian Howat, and the NASA Terrestrial Hydrology program.
+            </p>
+            <p class="pub-ref"><em>Remote Sensing of Environment</em>, 2024</p>
+          </div>
+
+          <div class="project-card ai-card">
+            <h4>Natural Hydrogen Prospecting via AI</h4>
+            <p>
+              Semantic segmentation of "fairy circles" — semicircular surface depressions (SCDs) indicative of subsurface hydrogen degassing — using the Segment Anything Model (SAM) combined with Sentinel-2 multispectral imagery and Copernicus DEM. Global mapping of potential natural hydrogen reservoirs, covered by <em>New Scientist</em> and 10+ international outlets. Industry partner: Koloma Inc.
+            </p>
+            <p class="pub-ref">AGU Fall Meeting 2023 · industry-funded</p>
+          </div>
+
+          <div class="project-card ai-card">
+            <h4>Coastal Bathymetry via Physics-Informed AI</h4>
+            <p>
+              Physics-informed neural networks (PINNs) combined with ICESat-2 satellite altimetry and Sentinel-2 multispectral imagery for shallow-water depth mapping in coastal and lacustrine environments. Peer-reviewed work on Sentinel-2 bathymetry decisions published at IEEE/CVF WACV 2025. NSF CAIG proposal ($1.5M, 2026–2029) pending.
+            </p>
+            <p class="pub-ref"><em>IEEE/CVF WACV</em>, 2025</p>
+          </div>
+
+          <div class="project-card ai-card">
+            <h4>Deforestation &amp; Food Security in Sub-Saharan Africa</h4>
+            <p>
+              AI-driven satellite remote sensing to quantify forest loss and gain, biomass change, and agroforestry dynamics in Uganda and the Sahel. Collaboration with economists (Leah Bevis, SPIA/CGIAR) to link satellite-derived land cover changes to food security outcomes. Funded by TDAI, Sustainability Institute, and CGIAR's Standing Panel on Impact Assessment ($1.25M, 2025–2028).
+            </p>
+            <p class="pub-ref">CGIAR/SPIA funded · in review, <em>Comm. Earth &amp; Environ.</em></p>
+          </div>
+
+        </div>
+
+        <!-- BuckAI Observatory highlight -->
+        <div class="buckai-box" id="buckai">
+          <h3>BuckAI Observatory</h3>
+          <p>
+            Founded in August 2025 with a $1M OSU seed grant (2025–2030), the BuckAI Observatory is an interdisciplinary center within the College of Arts and Sciences dedicated to AI-driven Earth observation. The Observatory hosts weekly research seminars, a BuckAI Innovation and Data Visualization Space, and shared GPU infrastructure through Ohio Supercomputer Center's Unity HPC cluster and cloud resources. We maintain an active <a href="https://github.com/buckaiobservatory" target="_blank" rel="noopener noreferrer">GitHub organization</a> for open-source research code, and a certificate program in Geospatial AI is currently in development.
+          </p>
+          <p>
+            The Observatory's Scientific Advisory Board includes:
+          </p>
+          <ul class="sab-list">
+            <li>Ian Howat (OSU, glaciology &amp; remote sensing)</li>
+            <li>Steven Quiring (OSU, climatology)</li>
+            <li>Dongbin Xiu (OSU, scientific machine learning)</li>
+            <li>Yuan-Sen Ting (OSU, astrostatistics &amp; AI)</li>
+          </ul>
+        </div>
+
+      </section>
+
+    </div><!-- end container -->
+  </div><!-- end page-wrapper -->
+
+  <footer>
+    <div class="container">
+      <p>Joachim Moortgat &nbsp;·&nbsp; School of Earth Sciences &nbsp;·&nbsp; The Ohio State University &nbsp;·&nbsp; Columbus, OH 43210</p>
+      <p style="margin-top:0.4rem"><a href="mailto:moortgat.1@osu.edu">moortgat.1@osu.edu</a></p>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>

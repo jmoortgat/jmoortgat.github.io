@@ -1,0 +1,11 @@
+# Source documents — not for public repo
+Supporting_Files/
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Editor directories
+.vscode/
+.idea/
