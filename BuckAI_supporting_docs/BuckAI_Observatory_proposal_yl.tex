@@ -1,0 +1,119 @@
+\documentclass[11pt]{article}
+
+% -------- layout ----------
+\usepackage[margin=0.75in]{geometry}
+\setlength{\parskip}{3pt}
+\setlength{\parindent}{0pt}
+\linespread{1.05}
+
+% -------- graphics & lists ----------
+\usepackage{graphicx}
+\usepackage{enumitem}
+\usepackage{xcolor}
+\usepackage{wrapfig}
+\usepackage{titlesec,url}
+
+% Tighter section spacing
+\titlespacing*{\section}{0pt}{1.5ex plus 0.5ex minus 0.2ex}{0.8ex}
+
+% Tighter list spacing
+\setlist[itemize]{leftmargin=*, itemsep=2pt, topsep=2pt}
+\setlist[enumerate]{leftmargin=*, itemsep=3pt, topsep=3pt}
+
+% -------- title block --------
+\title{
+\vspace{-3em}
+\begin{minipage}{\textwidth}
+\centering
+\includegraphics[width=0.16\textwidth]{BuckAI_logo}\\[0.5em]
+%\Large\bfseries BuckAI Observatory\\[0.25em]
+%\normalsize
+\Large\bfseries Center of Excellence in Applied AI for Earth Observation
+\end{minipage}
+}
+
+\author{
+\begin{tabular}{c}
+Joachim Moortgat \quad and \quad Yanlan Liu \\
+School of Earth Sciences, College of Arts and Sciences \\
+The Ohio State University
+\end{tabular}
+}
+
+\date{\today}
+
+% -------- Comments and editorial --------
+\newcommand{\ylcom}[1]{{\color{blue}(YL: #1)}} 
+
+\begin{document}
+\maketitle
+
+
+
+\section*{Executive Summary}
+%\begin{wrapfigure}{r}{0.15\textwidth} % 'r' = right side, width = 40% of text width
+%  \centering
+%  \includegraphics[width=0.15\textwidth]{BuckAI_logo.pdf} % slightly smaller to allow text padding
+%\end{wrapfigure}
+The College of Arts and Sciences (ASC) houses a rapidly growing community of scholars who rely on remote-sensing data.  Currently, a plethora of Earth and planetary observation satellites (optical, radar, gravity, magnetic fields, LIDAR, microwave, etc.) collect around 100 TB of data \textit{per day} (equivalent to the entire Netflix catalogue). Traditional analyses do not scale to such data volumes and --more importantly-- do not extract all information across multi-modal satellite data inputs. AI is the frontier to accelerate solutions to both these challenges. 
+Yet AI adoption is hindered by fragmented pipelines, limited GPU resources, and limited data engineering support.  
+We propose the \textbf{BuckAI Observatory}—a Center of Excellence that will (i) provide shared cyberinfrastructure, (ii) professionalize data workflows, and (iii) catalyze interdisciplinary collaborations, positioning Ohio State as a national leader in AI-enabled Earth and planetary observation.
+
+\section*{Motivation and Need}
+
+\begin{itemize}[leftmargin=*,itemsep=3pt]
+\item \textbf{Infrastructure gap.}  Unity,  ASC's HPC cluster, offers four (9 years old) shared GPUs and 3 PB of storage, while modern EO AI workflows require dedicated multi-GPU nodes and petabyte-scale archives.  
+\item \textbf{Duplicated effort.}  Multiple labs download and preprocess identical satellite products; code and data often disappear when funded projects complete and trainees graduate.
+\item {\textbf{Collaboration barrier.} Multi-modal, time-stacked satellite datasets constitute a frontier for AI research beyond RGB images, yet ASC lacks a unifying framework to exploit them. Colocating datasets from different disciplines (e.g., snow, vegetation, hydrology, socioeconomic metrics) will reduce these impediments and enhance the efficiency of collaboration across disciplines, including both remote sensing experts and modelers. }
+\item {\textbf{Educational resource.} A dedicated storage facility for Earth observation data and tools will streamline the connection from research to the classroom, helping build examples and test cases for student training in existing (e.g., AI for Earth Sciences, Geostatistics) and forthcoming data-centric courses.}
+\end{itemize}
+
+\section*{Objectives}
+
+\begin{enumerate}[leftmargin=*,itemsep=4pt]
+\item \textbf{Build an EO–AI community}.  Link PIs in Earth Sciences, Geography, Astronomy, EEOB, Statistics, Anthropology, Political Science and other units prior to funding calls.  
+\item \textbf{Provide shared resources}.  Upgrade Unity with modern multi-GPU nodes and 1 PB of managed storage; complementary to OSC for burst capacity.  
+\item \textbf{Professionalize pipelines}.  Employ a college-level data engineer to maintain ingestion, multi-sensor fusion, version control, and documentation.  
+\item \textbf{Lower entry barriers}.  Fund an undergraduate labeling pool; host boot camps and “red-team’’ proposal reviews in partnership with ERIK.  
+\item \textbf{Diversify funding}.  Launch a Joint Industry Consortium and work with the Technology Commercialization Office (TCO) on IP and licensing, in addition to federal funding. Partner with the Office of Advancement to establish an Endowed Faculty Chair and postdoctoral and graduate student fellowships in AI $+$ remote sensing.
+\item \textbf{Advance curriculum}.  Coordinate AI, remote sensing, and data-centric course offerings across units.  
+\item \textbf{Pursue foundation models}.  Pre-train self-supervised networks on petabyte-scale, multi-sensor archives, then fine-tune for specific science objectives.  
+\end{enumerate}
+%\ylcom{Do we want to mention similar efforts in other institutions, such as LEAP (\url{https://leap.columbia.edu/}) at Columbia? We could consider making a case saying previous efforts have demonstrated a similar model is effective in integrating collaboration across disciplines, facilitate education, and secure funding. We could also mention that BuckAI could allow use maximize our special strengths in cryosphere, hydrology, clean energy and others.}
+  
+\section*{Requested College Investment (5-year horizon)}
+
+\begin{itemize}[leftmargin=*,itemsep=2pt]
+\item Unity expansion: multi-GPU nodes + petabyte storage  
+\item Data-engineer support 
+\item Launch workshops / hackatons, faculty training modules in AI, and annual consortium meetings  
+\item Undergraduate labeling fund to generate training data for supervised AI algorithms
+\item Collaboration / visualization space in Mendenhall  
+%\item \ylcom{Should we ask for 1-2 postdocs who will focus on specific research project (ideally collaborative acorss desciplines), while using the project to build a prototype of streamlined data/code flow for BuckAI?}
+%\item One-year GRA to seed an AI-for-geodesy program  
+\end{itemize}
+
+The total requested seed investment is  \$1 million.  The above items are difficult to include in single-PI federal grants yet are essential for college-wide impact.
+
+\section*{Return on Investment}
+
+\begin{itemize}[leftmargin=*,itemsep=3pt]
+\item Engage around twenty ASC PIs in shared EO–AI infrastructure from year 1.  
+\item Enable competitive proposals to NASA, NSF, DoD, NOAA, NGA, philanthropic foundations, and industry—targeting \textbf{\$10  million in external awards within five years}.  
+\item Provide a resilient, diversified funding model that combines federal grants, Sponsored Research Agreements, philanthropy, and commercialization revenue.  
+\end{itemize}
+
+\section*{Leadership and Governance}
+
+The Observatory will be co-directed by \textbf{Joachim Moortgat} and \textbf{Yanlan Liu} (School of Earth Sciences) with an internal advisory board drawn from participating units as well as an external advisory board.  %Unity upgrades will be administered in coordination with ASC Technology Services.
+
+
+
+\vspace{3em}
+\hrule
+\vspace{0.5em}
+
+\small
+For additional information, please :  
+Joachim Moortgat \texttt{<moortgat.1@osu.edu>} and Yanlan Liu \texttt{<liu.9367@osu.edu>}
+\end{document}

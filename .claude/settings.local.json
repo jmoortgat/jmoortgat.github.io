@@ -1,0 +1,21 @@
+{
+  "permissions": {
+    "allow": [
+      "WebFetch(domain:u.osu.edu)",
+      "WebSearch",
+      "WebFetch(domain:earthsciences.osu.edu)",
+      "WebFetch(domain:scholar.google.com)",
+      "WebFetch(domain:artsandsciences.osu.edu)",
+      "WebFetch(domain:news.osu.edu)",
+      "WebFetch(domain:tdai.osu.edu)",
+      "WebFetch(domain:geography.osu.edu)",
+      "WebFetch(domain:math.osu.edu)",
+      "WebFetch(domain:astronomy.osu.edu)",
+      "WebFetch(domain:senr.osu.edu)",
+      "WebFetch(domain:www.ysting.space)",
+      "WebFetch(domain:majarzyna.com)",
+      "WebFetch(domain:research.byrd.osu.edu)",
+      "WebFetch(domain:byrd.osu.edu)"
+    ]
+  }
+}
