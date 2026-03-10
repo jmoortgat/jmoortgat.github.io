@@ -1,5 +1,9 @@
 # Source documents — not for public repo
 Supporting_Files/
+BuckAI_supporting_docs/
+
+# BuckAI Observatory — separate git repo
+BuckAI_Website/
 
 # macOS
 .DS_Store
