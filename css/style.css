@@ -88,6 +88,8 @@ strong { font-weight: 600; }
 }
 .nav-links a:hover { color: var(--text); text-decoration: none; }
 .nav-links a.active { color: var(--text); border-bottom-color: var(--accent); }
+.nav-links a.nav-give { color: var(--scarlet); font-weight: 600; }
+.nav-links a.nav-give:hover { color: #e05070; }
 
 /* Hamburger */
 .nav-hamburger {

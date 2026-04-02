@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Support BuckAI — Joachim Moortgat</title>
+  <meta name="description" content="Support AI-driven Earth science research and education at the BuckAI Observatory, The Ohio State University.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+  <style>
+    .giving-hero {
+      background: var(--surface);
+      border: 1px solid var(--accent);
+      border-top: 4px solid var(--scarlet);
+      border-radius: var(--radius);
+      padding: 2.5rem;
+      margin-bottom: 2rem;
+    }
+    .giving-hero h2 {
+      font-size: 1.5rem;
+      font-weight: 700;
+      color: var(--text);
+      margin-bottom: 1rem;
+    }
+    .giving-hero p {
+      color: var(--text);
+      line-height: 1.85;
+      font-size: 0.97rem;
+      margin-bottom: 1rem;
+      max-width: 760px;
+    }
+    .giving-hero p:last-of-type { margin-bottom: 1.75rem; }
+
+    .btn-give {
+      display: inline-block;
+      padding: 0.65rem 1.75rem;
+      background: var(--scarlet);
+      color: #fff;
+      border-radius: var(--radius);
+      font-size: 1rem;
+      font-weight: 700;
+      letter-spacing: 0.02em;
+      transition: background 0.15s, transform 0.15s;
+    }
+    .btn-give:hover {
+      background: #9a0a26;
+      color: #fff;
+      text-decoration: none;
+      transform: translateY(-1px);
+    }
+
+    .impact-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+      gap: 1.25rem;
+      margin-top: 2.5rem;
+    }
+    .impact-card {
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: var(--radius);
+      padding: 1.5rem;
+    }
+    .impact-card h4 {
+      font-size: 0.95rem;
+      font-weight: 700;
+      color: var(--accent);
+      margin-bottom: 0.6rem;
+    }
+    .impact-card p {
+      font-size: 0.88rem;
+      color: var(--muted);
+      line-height: 1.65;
+    }
+
+    .giving-note {
+      margin-top: 2.5rem;
+      padding: 1.25rem 1.5rem;
+      background: var(--surface2);
+      border: 1px solid var(--border);
+      border-radius: var(--radius);
+      font-size: 0.85rem;
+      color: var(--muted);
+      max-width: 680px;
+    }
+    .giving-note a { color: var(--accent); }
+  </style>
+</head>
+<body>
+
+  <!-- ===== NAVIGATION ===== -->
+  <nav class="nav">
+    <div class="nav-inner">
+      <a href="index.html" class="nav-brand">Joachim Moortgat</a>
+      <button class="nav-hamburger" id="navHamburger" aria-label="Toggle navigation" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+      <ul class="nav-links" id="navLinks">
+        <li><a href="index.html">About</a></li>
+        <li><a href="research.html">Research</a></li>
+        <li><a href="publications.html">Publications</a></li>
+        <li><a href="teaching.html">Teaching</a></li>
+        <li><a href="contact.html">Contact</a></li>
+        <li><a href="giving.html" class="nav-give">Giving</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <div class="page-wrapper">
+    <div class="container">
+      <section class="section">
+        <h1 class="section-title">Support BuckAI Research &amp; Education</h1>
+
+        <div class="giving-hero">
+          <h2>Invest in AI-Driven Earth Science</h2>
+          <p>
+            The BuckAI Observatory at The Ohio State University is tackling some of the most pressing environmental and energy challenges of our time — from mapping freshwater systems and monitoring deforestation across Sub-Saharan Africa, to locating natural hydrogen reservoirs and modeling subsurface carbon storage. We do this by developing cutting-edge AI and deep learning methods applied to satellite and multi-modal remote sensing data.
+          </p>
+          <p>
+            Philanthropic support directly accelerates this mission. Gifts to the BuckAI Observatory fund graduate and undergraduate student researchers, computational infrastructure, field campaigns, open-source software development, and public educational programs that train the next generation of AI-literate Earth scientists.
+          </p>
+          <p>
+            Every contribution — at any level — makes a meaningful difference. Your generosity helps us pursue high-risk, high-reward research that opens new scientific frontiers and produces real-world environmental impact.
+          </p>
+          <a href="https://www.giveto.osu.edu/makeagift/?fund=318852"
+             class="btn-give"
+             target="_blank"
+             rel="noopener noreferrer">Give Now →</a>
+        </div>
+
+        <div class="impact-grid">
+          <div class="impact-card">
+            <h4>Student Research</h4>
+            <p>Support fellowships and research assistantships for PhD students and undergraduates working on AI and satellite-based environmental monitoring.</p>
+          </div>
+          <div class="impact-card">
+            <h4>Computational Infrastructure</h4>
+            <p>Help fund GPU computing resources and cloud infrastructure that power large-scale deep learning experiments on global satellite datasets.</p>
+          </div>
+          <div class="impact-card">
+            <h4>Education &amp; Outreach</h4>
+            <p>Enable workshops, seminars, and open-source tools that share BuckAI methods with the broader scientific community and the public.</p>
+          </div>
+          <div class="impact-card">
+            <h4>Field &amp; Data Campaigns</h4>
+            <p>Support acquisition of high-resolution commercial imagery and field validation efforts that ground-truth our AI models in diverse environments worldwide.</p>
+          </div>
+        </div>
+
+        <div class="giving-note">
+          Gifts are processed securely through The Ohio State University's official giving portal and are tax-deductible to the extent permitted by law. For questions about giving or to discuss a major gift, please <a href="contact.html">contact Professor Moortgat</a> directly.
+        </div>
+
+      </section>
+    </div>
+  </div>
+
+  <footer>
+    <div class="container">
+      <p>Joachim Moortgat &nbsp;·&nbsp; School of Earth Sciences &nbsp;·&nbsp; The Ohio State University &nbsp;·&nbsp; Columbus, OH 43210</p>
+      <p style="margin-top:0.4rem"><a href="mailto:moortgat.1@osu.edu">moortgat.1@osu.edu</a></p>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
