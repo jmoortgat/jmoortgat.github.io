@@ -1,5 +1,14 @@
 /* main.js — Navigation active state, mobile hamburger, publication filter */
 
+/* ---- Cloudflare Web Analytics ---- */
+(function () {
+  const s = document.createElement('script');
+  s.defer = true;
+  s.src = 'https://static.cloudflareinsights.com/beacon.min.js';
+  s.setAttribute('data-cf-beacon', JSON.stringify({ token: '3475127575dd4c2c88b2eda1f9d8fa77' }));
+  document.head.appendChild(s);
+})();
+
 document.addEventListener('DOMContentLoaded', function () {
 
   /* ----------------------------------------
