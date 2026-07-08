@@ -13,3 +13,7 @@ BuckAI_Website/
 # Editor directories
 .vscode/
 .idea/
+
+# Claude Code local state — settings, session locks, scheduled-task metadata.
+# All process-local; never useful to commit.
+.claude/
