@@ -51,23 +51,46 @@
 
   // Wong (2011) colors that read on a dark background, plus dash patterns
   // so circles are distinguishable without color.
-  var COLORS = ['#56B4E9', '#E69F00', '#009E73', '#CC79A7', '#F0E442', '#D55E00', '#BBBBBB'];
-  var DASHES = ['none', '8 4', '2 4', '10 4 2 4', '4 4', '12 3', '1 3'];
+  var COLORS = ['#56B4E9', '#E69F00', '#009E73', '#CC79A7', '#F0E442', '#D55E00', '#FFFFFF', '#BBBBBB'];
+  var DASHES = ['none', '8 4', '2 4', '10 4 2 4', '4 4', '12 3', '1 3', '6 2 1 2'];
   var style = {};
-  keys.forEach(function (k, i) { style[k] = { color: COLORS[i % 7], dash: DASHES[i % 7] }; });
+  keys.forEach(function (k, i) { style[k] = { color: COLORS[i % 8], dash: DASHES[i % 8] }; });
 
   // Shorter circle labels for phone widths.
   var SHORT = {
-    'ai-rs': 'AI & Remote Sensing', 'comp-geo': 'Comp. Geosciences', 'co2': 'CO₂ Storage',
-    'thermo': 'Chem. & Thermo', 'shale': 'Shale', 'hydrogen': 'Hydrogen', 'other': 'Other'
+    'ai-rs': 'AI & RS', 'comp-geo': 'Comp. Geosciences', 'co2': 'CO₂ Storage',
+    'thermo': 'Chem. & Thermo', 'shale': 'Shale', 'hydrogen': 'Hydrogen',
+    'cs': 'Comp. Science', 'astro': 'Astrophysics'
   };
+
+  // The layout's overall shape depends on its rotation. Try several and keep
+  // the one whose height/width ratio is closest to the box (tall on phones).
+  var baseLayout = venn.venn(data);
+  function bestOrientation(target) {
+    var best = Math.PI / 2, bestErr = Infinity;
+    for (var i = 0; i < 12; i++) {
+      var o = i * Math.PI / 12;
+      var sol = venn.normalizeSolution(baseLayout, o);
+      var minX = Infinity, maxX = -Infinity, minY = Infinity, maxY = -Infinity;
+      Object.keys(sol).forEach(function (k) {
+        var c = sol[k];
+        minX = Math.min(minX, c.x - c.radius); maxX = Math.max(maxX, c.x + c.radius);
+        minY = Math.min(minY, c.y - c.radius); maxY = Math.max(maxY, c.y + c.radius);
+      });
+      var err = Math.abs(Math.log(((maxY - minY) / (maxX - minX)) / target));
+      if (err < bestErr) { bestErr = err; best = o; }
+    }
+    return best;
+  }
 
   function draw() {
     host.innerHTML = '';
     var w = Math.min(host.clientWidth || 640, 860);
     var name = function (k) { return (w < 500 && SHORT[k]) || labels[k]; };
-    var h = Math.round(w * (w < 500 ? 0.95 : 0.72));
-    var chart = venn.VennDiagram().width(w).height(h).padding(w < 500 ? 20 : 30)
+    var narrow = w < 500;
+    var h = Math.round(w * (narrow ? 1.25 : 0.72));
+    var chart = venn.VennDiagram().width(w).height(h)
+      .orientation(narrow ? bestOrientation(h / w) : Math.PI / 2).padding(w < 500 ? 34 : 40)
       .fontSize(w < 500 ? '12px' : '14px');
     var div = d3.select(host).datum(data).call(chart);
 

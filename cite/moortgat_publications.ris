@@ -1,0 +1,1141 @@
+TY  - JOUR
+AU  - Moortgat, Joachim
+AU  - Jain, Bhavika
+AU  - Radhakrishnan, Aswathnarayan
+AU  - Chowdhury, Satyaki Roy
+AU  - Hsu, Hsiao Jou
+TI  - geoai-datacubes: AI-ready multi-mission satellite data cubes for Earth-observation machine learning
+JO  - Journal of Open Source Software
+PY  - 2026
+VL  - 11
+IS  - 127
+PB  - The Open Journal
+DO  - 10.21105/joss.11034
+SP  - 11034
+UR  - https://doi.org/10.21105/joss.11034
+ER  - 
+
+TY  - JOUR
+AU  - Moortgat, Joachim
+AU  - Coelho, Felipe Mourão
+AU  - Firoozabadi, Abbas
+TI  - Phase Equilibria of CO2, CH4, N2, H2, C2H6, C3H8, and Mixtures in Multisalt Brines: Robust Stability and Flash Computations with an Ion-Specific Electrolyte Cubic-Plus-Association Equation of State
+JO  - Energy & Fuels
+PY  - 2026
+VL  - 40
+IS  - 45
+PB  - American Chemical Society (ACS)
+DO  - 10.1021/acs.energyfuels.6c04569
+SP  - 24867
+EP  - 24882
+UR  - https://doi.org/10.1021/acs.energyfuels.6c04569
+ER  - 
+
+TY  - JOUR
+AU  - Moortgat, Joachim
+AU  - Mourão Coelho, Felipe
+AU  - Firoozabadi, Abbas
+TI  - Phase Equilibria of CO2 and CH4 in Multisalt Brines: Parametrization and Validation of an Ion-Specific Electrolyte Cubic-Plus-Association Equation of State
+JO  - Energy & Fuels
+PY  - 2026
+VL  - 40
+IS  - 42
+PB  - American Chemical Society (ACS)
+DO  - 10.1021/acs.energyfuels.6c04568
+SP  - 23472
+EP  - 23484
+UR  - https://doi.org/10.1021/acs.energyfuels.6c04568
+ER  - 
+
+TY  - JOUR
+AU  - Moortgat, Joachim
+AU  - Coelho, Felipe Mourão
+AU  - Firoozabadi, Abbas
+TI  - Fast and Robust Phase Equilibrium Computations for CO2 + H2O + NaCl Mixtures Using the Electrolyte Cubic-Plus-Association Equation of State
+JO  - Industrial & Engineering Chemistry Research
+PY  - 2026
+VL  - 65
+IS  - 37
+PB  - American Chemical Society (ACS)
+DO  - 10.1021/acs.iecr.6c02626
+SP  - 20081
+EP  - 20103
+UR  - https://doi.org/10.1021/acs.iecr.6c02626
+ER  - 
+
+TY  - JOUR
+AU  - Hsu, Hsiao-Jou
+AU  - Tseng, Kuo-Hsin
+AU  - Tsai, Fuan
+AU  - Liu, Chian-Liang
+AU  - Lo, Chi-Chuan
+AU  - Moortgat, Joachim
+TI  - A novel approach to automated cloud removal and seamless multisensor satellite image mosaicking
+JO  - Applied Computing and Geosciences
+PY  - 2026
+VL  - 31
+PB  - Elsevier BV
+DO  - 10.1016/j.acags.2026.100387
+SP  - 100387
+UR  - https://doi.org/10.1016/j.acags.2026.100387
+ER  - 
+
+TY  - JOUR
+AU  - Hsu, Hsiao-Jou
+AU  - Moortgat, Joachim
+TI  - From Local Training to Large-Scale Mapping: A Comparative Assessment of Machine Learning and Deep Learning for Transferable Satellite-Derived Bathymetry
+JO  - Remote Sensing
+PY  - 2026
+VL  - 18
+IS  - 11
+PB  - MDPI AG
+DO  - 10.3390/rs18111768
+SP  - 1768
+UR  - https://doi.org/10.3390/rs18111768
+ER  - 
+
+TY  - CONF
+AU  - Chowdhury, Satyaki Roy
+AU  - Radhakrishnan, Aswathnarayan
+AU  - Hsu, Hsiao-Jou
+AU  - Subramoni, Hari
+AU  - Moortgat, Joachim
+TI  - From Bands to Depth: Understanding Bathymetry Decisions on Sentinel-2
+T2  - Proceedings of the IEEE/CVF Winter Conference on Applications of Computer Vision (WACV)
+PY  - 2026
+PB  - IEEE
+DO  - 10.48550/arXiv.2601.12636
+SP  - 2063
+EP  - 2072
+UR  - https://openaccess.thecvf.com/content/WACV2026/html/Chowdhury_From_Bands_to_Depth_Understanding_Bathymetry_Decisions_on_Sentinel-2_WACV_2026_paper.html
+ER  - 
+
+TY  - JOUR
+AU  - Moortgat, Joachim
+TI  - Vapor-liquid equilibrium of water-hydrogen mixtures: A review of experimental data and modeling with a Cubic-Plus-Association Equation-of-State
+JO  - PLOS One
+PY  - 2025
+VL  - 20
+IS  - 12
+PB  - Public Library of Science (PLoS)
+DO  - 10.1371/journal.pone.0332157
+SP  - e0332157
+UR  - https://doi.org/10.1371/journal.pone.0332157
+ER  - 
+
+TY  - JOUR
+AU  - Durand, Michael
+AU  - Dai, Chunli
+AU  - Moortgat, Joachim
+AU  - Yadav, Bidhyananda
+AU  - Frasson, Renato Prata de Moraes
+AU  - Li, Ziwei
+AU  - Wadkwoski, Kylie
+AU  - Howat, Ian
+AU  - Pavelsky, Tamlin M.
+TI  - Using river hypsometry to improve remote sensing of river discharge
+JO  - Remote Sensing of Environment
+PY  - 2024
+VL  - 315
+PB  - Elsevier BV
+DO  - 10.1016/j.rse.2024.114455
+SP  - 114455
+UR  - https://doi.org/10.1016/j.rse.2024.114455
+ER  - 
+
+TY  - JOUR
+AU  - Kaushik, Saurabh
+AU  - Rafiq, Mohammd
+AU  - Dharpure, Jaydeo K.
+AU  - Howat, Ian
+AU  - Moortgat, Joachim
+AU  - Joshi, P.K.
+AU  - Singh, Tejpal
+AU  - Dietz, Andreas J.
+TI  - Increasing risk of glacial lake outburst flood in Sikkim, Eastern Himalaya under climate warming
+JO  - Remote Sensing Applications: Society and Environment
+PY  - 2024
+VL  - 36
+PB  - Elsevier BV
+DO  - 10.1016/j.rsase.2024.101286
+SP  - 101286
+UR  - https://doi.org/10.1016/j.rsase.2024.101286
+ER  - 
+
+TY  - JOUR
+AU  - Naim, Fawz
+AU  - Cook, Ann E.
+AU  - Moortgat, Joachim
+TI  - Estimating Compressional Velocity and Bulk Density Logs in Marine Gas Hydrates Using Machine Learning
+JO  - Energies
+PY  - 2023
+VL  - 16
+IS  - 23
+PB  - MDPI AG
+DO  - 10.3390/en16237709
+SP  - 7709
+UR  - https://doi.org/10.3390/en16237709
+ER  - 
+
+TY  - JOUR
+AU  - Moortgat, Joachim
+AU  - Firoozabadi, Abbas
+TI  - Viscosification of CO2 to improve subsurface storage — A modeling study
+JO  - International Journal of Greenhouse Gas Control
+PY  - 2023
+VL  - 129
+PB  - Elsevier BV
+DO  - 10.1016/j.ijggc.2023.103984
+SP  - 103984
+UR  - https://doi.org/10.1016/j.ijggc.2023.103984
+ER  - 
+
+TY  - JOUR
+AU  - Li, Ziwei
+AU  - Leong, Wei Ji
+AU  - Durand, Michael
+AU  - Howat, Ian
+AU  - Wadkowski, Kylie
+AU  - Yadav, Bidhyananda
+AU  - Moortgat, Joachim
+TI  - Super-resolution deep neural networks for water classification from free multispectral satellite imagery
+JO  - Journal of Hydrology
+PY  - 2023
+VL  - 626
+PB  - Elsevier BV
+DO  - 10.1016/j.jhydrol.2023.130248
+SP  - 130248
+UR  - https://doi.org/10.1016/j.jhydrol.2023.130248
+ER  - 
+
+TY  - JOUR
+AU  - Moortgat, Joachim
+AU  - Li, Ziwei
+AU  - Durand, Michael
+AU  - Howat, Ian
+AU  - Yadav, Bidhyananda
+AU  - Dai, Chunli
+TI  - Deep learning models for river classification at sub-meter resolutions from multispectral and panchromatic commercial satellite imagery
+JO  - Remote Sensing of Environment
+PY  - 2022
+VL  - 282
+PB  - Elsevier BV
+DO  - 10.1016/j.rse.2022.113279
+SP  - 113279
+UR  - https://doi.org/10.1016/j.rse.2022.113279
+ER  - 
+
+TY  - JOUR
+AU  - Fenglin, Gao
+AU  - Chengxi, Wang
+AU  - Yan, Song
+AU  - Qinghong, Hu
+AU  - Chengxiang, Wan
+AU  - Fengyang, Xiong
+AU  - Zhuo, Li
+AU  - Joachim, Moortgat
+TI  - Organic pore heterogeneity and its formation mechanisms: Insights from the Lower Cretaceous lacustrine Shahezi shale in the Songliao Basin, NE China
+JO  - Energy Exploration & Exploitation
+PY  - 2022
+VL  - 40
+IS  - 1
+PB  - SAGE Publications
+DO  - 10.1177/01445987211044831
+SP  - 112
+EP  - 131
+UR  - https://doi.org/10.1177/01445987211044831
+ER  - 
+
+TY  - JOUR
+AU  - Xiong, Fengyang
+AU  - Hwang, Bohyun
+AU  - Jiang, Zhenxue
+AU  - James, Derrick
+AU  - Lu, Hailong
+AU  - Moortgat, Joachim
+TI  - Kinetic emission of shale gas in saline water: Insights from experimental observation of gas shale in canister desorption testing
+JO  - Fuel
+PY  - 2021
+VL  - 300
+PB  - Elsevier BV
+DO  - 10.1016/j.fuel.2021.121006
+SP  - 121006
+UR  - https://doi.org/10.1016/j.fuel.2021.121006
+ER  - 
+
+TY  - JOUR
+AU  - Eymold, William K.
+AU  - Walsh, Talor B.
+AU  - Moortgat, Joachim
+AU  - Grove, Benjamin S.
+AU  - Darrah, Thomas H.
+TI  - Constraining fault architecture and fluid flow using crustal noble gases
+JO  - Applied Geochemistry
+PY  - 2021
+VL  - 129
+PB  - Elsevier BV
+DO  - 10.1016/j.apgeochem.2021.104954
+SP  - 104954
+UR  - https://doi.org/10.1016/j.apgeochem.2021.104954
+ER  - 
+
+TY  - JOUR
+AU  - Gao, Fenglin
+AU  - Wang, Chengxi
+AU  - Song, Yan
+AU  - Wan, Chengxiang
+AU  - Xiong, Fengyang
+AU  - Li, Zhuo
+AU  - Moortgat, Joachim
+TI  - Quantitative Characterization of Organic Pore Structure from Gas Adsorption in Lower Cretaceous Lacustrine Shales in the Songliao Basin, NE China
+JO  - Lithosphere
+PY  - 2021
+VL  - 2021
+IS  - Special 1
+PB  - GeoScienceWorld
+DO  - 10.2113/2021/6644430
+SP  - 6644430
+UR  - https://doi.org/10.2113/2021/6644430
+ER  - 
+
+TY  - JOUR
+AU  - Xiong, Fengyang
+AU  - Rother, Gernot
+AU  - Gong, Yiwen
+AU  - Moortgat, Joachim
+TI  - Reexamining supercritical gas adsorption theories in nano-porous shales under geological conditions
+JO  - Fuel
+PY  - 2021
+VL  - 287
+PB  - Elsevier BV
+DO  - 10.1016/j.fuel.2020.119454
+SP  - 119454
+UR  - https://doi.org/10.1016/j.fuel.2020.119454
+ER  - 
+
+TY  - JOUR
+AU  - Li, Mengnan
+AU  - Moortgat, Joachim
+AU  - Bolotnov, Igor A.
+TI  - Nucleate boiling simulation using interface tracking method
+JO  - Nuclear Engineering and Design
+PY  - 2020
+VL  - 369
+PB  - Elsevier BV
+DO  - 10.1016/j.nucengdes.2020.110813
+SP  - 110813
+UR  - https://doi.org/10.1016/j.nucengdes.2020.110813
+ER  - 
+
+TY  - JOUR
+AU  - Moortgat, Joachim
+AU  - Li, Mengnan
+AU  - Amooie, Mohammad Amin
+AU  - Zhu, Di
+TI  - A higher-order finite element reactive transport model for unstructured and fractured grids
+JO  - Scientific Reports
+PY  - 2020
+VL  - 10
+IS  - 1
+PB  - Springer Science and Business Media LLC
+DO  - 10.1038/s41598-020-72354-3
+SP  - 15572
+UR  - https://doi.org/10.1038/s41598-020-72354-3
+ER  - 
+
+TY  - JOUR
+AU  - Xiong, Fengyang
+AU  - Rother, Gernot
+AU  - Tomasko, David
+AU  - Pang, Wanying
+AU  - Moortgat, Joachim
+TI  - On the pressure and temperature dependence of adsorption densities and other thermodynamic properties in gas shales
+JO  - Chemical Engineering Journal
+PY  - 2020
+VL  - 395
+PB  - Elsevier BV
+DO  - 10.1016/j.cej.2020.124989
+SP  - 124989
+UR  - https://doi.org/10.1016/j.cej.2020.124989
+ER  - 
+
+TY  - JOUR
+AU  - Xu, Jiayi
+AU  - Dutta, Soumya
+AU  - He, Wenbin
+AU  - Moortgat, Joachim
+AU  - Shen, Han-Wei
+TI  - Geometry-Driven Detection, Tracking and Visual Analysis of Viscous and Gravitational Fingers
+JO  - IEEE Transactions on Visualization and Computer Graphics
+PY  - 2022
+VL  - 28
+IS  - 3
+PB  - Institute of Electrical and Electronics Engineers (IEEE)
+DO  - 10.1109/TVCG.2020.3017568
+SP  - 1514
+EP  - 1528
+UR  - https://doi.org/10.1109/TVCG.2020.3017568
+ER  - 
+
+TY  - JOUR
+AU  - Xiong, Fengyang
+AU  - Jiang, Zhenxue
+AU  - Huang, Hexin
+AU  - Wen, Ming
+AU  - Moortgat, Joachim
+TI  - Mineralogy and Gas Content of Upper Paleozoic Shanxi and Benxi Shale Formations in the Ordos Basin
+JO  - Energy & Fuels
+PY  - 2019
+VL  - 33
+IS  - 2
+PB  - American Chemical Society (ACS)
+DO  - 10.1021/acs.energyfuels.8b04059
+SP  - 1061
+EP  - 1068
+UR  - https://doi.org/10.1021/acs.energyfuels.8b04059
+ER  - 
+
+TY  - JOUR
+AU  - Soltanian, Mohamad Reza
+AU  - Amooie, Mohammad Amin
+AU  - Cole, David
+AU  - Graham, David
+AU  - Pfiffner, Susan
+AU  - Phelps, Tommy
+AU  - Moortgat, Joachim
+TI  - Transport of perfluorocarbon tracers in the Cranfield Geological Carbon Sequestration Project
+JO  - Greenhouse Gases: Science and Technology
+PY  - 2018
+VL  - 8
+IS  - 4
+PB  - Wiley
+DO  - 10.1002/ghg.1786
+SP  - 650
+EP  - 671
+UR  - https://doi.org/10.1002/ghg.1786
+ER  - 
+
+TY  - JOUR
+AU  - Gao, Fenglin
+AU  - Song, Yan
+AU  - Li, Zhuo
+AU  - Xiong, Fengyang
+AU  - Chen, Lei
+AU  - Zhang, Yinghan
+AU  - Liang, Zhikai
+AU  - Zhang, Xinxin
+AU  - Chen, Zhiyuan
+AU  - Joachim, Moortgat
+TI  - Lithofacies and reservoir characteristics of the Lower Cretaceous continental Shahezi Shale in the Changling Fault Depression of Songliao Basin, NE China
+JO  - Marine and Petroleum Geology
+PY  - 2018
+VL  - 98
+PB  - Elsevier BV
+DO  - 10.1016/j.marpetgeo.2018.08.035
+SP  - 401
+EP  - 421
+UR  - https://doi.org/10.1016/j.marpetgeo.2018.08.035
+ER  - 
+
+TY  - JOUR
+AU  - Gao, Fenglin
+AU  - Song, Yan
+AU  - Li, Zhuo
+AU  - Xiong, Fengyang
+AU  - Chen, Lei
+AU  - Zhang, Xinxin
+AU  - Chen, Zhiyuan
+AU  - Moortgat, Joachim
+TI  - Quantitative characterization of pore connectivity using NMR and MIP: A case study of the Wangyinpu and Guanyintang shales in the Xiuwu basin, Southern China
+JO  - International Journal of Coal Geology
+PY  - 2018
+VL  - 197
+PB  - Elsevier BV
+DO  - 10.1016/j.coal.2018.07.007
+SP  - 53
+EP  - 65
+UR  - https://doi.org/10.1016/j.coal.2018.07.007
+ER  - 
+
+TY  - JOUR
+AU  - Amooie, Mohammad Amin
+AU  - Soltanian, Mohamad Reza
+AU  - Moortgat, Joachim
+TI  - Solutal convection in porous media: Comparison between boundary conditions of constant concentration and constant flux
+JO  - Physical Review E
+PY  - 2018
+VL  - 98
+IS  - 3
+PB  - American Physical Society (APS)
+DO  - 10.1103/PhysRevE.98.033118
+SP  - 033118
+UR  - https://doi.org/10.1103/PhysRevE.98.033118
+ER  - 
+
+TY  - JOUR
+AU  - Dai, Zhenxue
+AU  - Zhang, Ye
+AU  - Bielicki, Jeffrey
+AU  - Amooie, Mohammad Amin
+AU  - Zhang, Mingkan
+AU  - Yang, Changbing
+AU  - Zou, Youqin
+AU  - Ampomah, William
+AU  - Xiao, Ting
+AU  - Jia, Wei
+AU  - Middleton, Richard
+AU  - Zhang, Wen
+AU  - Sun, Youhong
+AU  - Moortgat, Joachim
+AU  - Soltanian, Mohamad Reza
+AU  - Stauffer, Philip
+TI  - Heterogeneity-assisted carbon dioxide storage in marine sediments
+JO  - Applied Energy
+PY  - 2018
+VL  - 225
+PB  - Elsevier BV
+DO  - 10.1016/j.apenergy.2018.05.038
+SP  - 876
+EP  - 883
+UR  - https://doi.org/10.1016/j.apenergy.2018.05.038
+ER  - 
+
+TY  - JOUR
+AU  - Amooie, Mohammad Amin
+AU  - Moortgat, Joachim
+TI  - Higher-order black-oil and compositional modeling of multiphase compressible flow in porous media
+JO  - International Journal of Multiphase Flow
+PY  - 2018
+VL  - 105
+PB  - Elsevier BV
+DO  - 10.1016/j.ijmultiphaseflow.2018.03.016
+SP  - 45
+EP  - 59
+UR  - https://doi.org/10.1016/j.ijmultiphaseflow.2018.03.016
+ER  - 
+
+TY  - JOUR
+AU  - Moortgat, Joachim
+TI  - Reservoir simulation with the cubic plus (cross-) association equation of state for water, CO2, hydrocarbons, and tracers
+JO  - Advances in Water Resources
+PY  - 2018
+VL  - 114
+PB  - Elsevier BV
+DO  - 10.1016/j.advwatres.2018.02.004
+SP  - 29
+EP  - 44
+UR  - https://doi.org/10.1016/j.advwatres.2018.02.004
+ER  - 
+
+TY  - JOUR
+AU  - Moortgat, Joachim
+AU  - Schwartz, Franklin W.
+AU  - Darrah, Thomas H.
+TI  - Numerical Modeling of Methane Leakage from a Faulty Natural Gas Well into Fractured Tight Formations
+JO  - Groundwater
+PY  - 2018
+VL  - 56
+IS  - 2
+PB  - Wiley
+DO  - 10.1111/gwat.12630
+SP  - 163
+EP  - 175
+UR  - https://doi.org/10.1111/gwat.12630
+ER  - 
+
+TY  - CONF
+AU  - Li, Cheng
+AU  - Moortgat, Joachim
+AU  - Shen, Han-Wei
+TI  - An Automatic Deformation Approach for Occlusion Free Egocentric Data Exploration
+T2  - 2018 IEEE Pacific Visualization Symposium (PacificVis)
+PY  - 2018
+PB  - IEEE
+DO  - 10.1109/PacificVis.2018.00035
+SP  - 215
+EP  - 224
+UR  - https://doi.org/10.1109/PacificVis.2018.00035
+ER  - 
+
+TY  - JOUR
+AU  - Eymold, William K.
+AU  - Swana, Kelley
+AU  - Moore, Myles T.
+AU  - Whyte, Colin J.
+AU  - Harkness, Jennifer S.
+AU  - Talma, Siep
+AU  - Murray, Ricky
+AU  - Moortgat, Joachim B.
+AU  - Miller, Jodie
+AU  - Vengosh, Avner
+AU  - Darrah, Thomas H.
+TI  - Hydrocarbon‐Rich Groundwater above Shale‐Gas Formations: A Karoo Basin Case Study
+JO  - Groundwater
+PY  - 2018
+VL  - 56
+IS  - 2
+PB  - Wiley
+DO  - 10.1111/gwat.12637
+SP  - 204
+EP  - 224
+UR  - https://doi.org/10.1111/gwat.12637
+ER  - 
+
+TY  - JOUR
+AU  - Soltanian, Mohamad Reza
+AU  - Dai, Zhenxue
+AU  - Yang, Changbing
+AU  - Amooie, Mohammad Amin
+AU  - Moortgat, Joachim
+TI  - Multicomponent competitive monovalent cation exchange in hierarchical porous media with multimodal reactive mineral facies
+JO  - Stochastic Environmental Research and Risk Assessment
+PY  - 2018
+VL  - 32
+IS  - 1
+PB  - Springer Science and Business Media LLC
+DO  - 10.1007/s00477-017-1379-y
+SP  - 295
+EP  - 310
+UR  - https://doi.org/10.1007/s00477-017-1379-y
+ER  - 
+
+TY  - JOUR
+AU  - Soltanian, Mohamad R.
+AU  - Amooie, Mohammad A.
+AU  - Cole, David R.
+AU  - Darrah, Thomas H.
+AU  - Graham, David E.
+AU  - Pfiffner, Susan M.
+AU  - Phelps, Tommy J.
+AU  - Moortgat, Joachim
+TI  - Impacts of Methane on Carbon Dioxide Storage in Brine Formations
+JO  - Groundwater
+PY  - 2018
+VL  - 56
+IS  - 2
+PB  - Wiley
+DO  - 10.1111/gwat.12633
+SP  - 176
+EP  - 186
+UR  - https://doi.org/10.1111/gwat.12633
+ER  - 
+
+TY  - JOUR
+AU  - Soltanian, Mohamad Reza
+AU  - Amooie, Mohammad Amin
+AU  - Gershenzon, Naum
+AU  - Dai, Zhenxue
+AU  - Ritzi, Robert
+AU  - Xiong, Fengyang
+AU  - Cole, David
+AU  - Moortgat, Joachim
+TI  - Dissolution Trapping of Carbon Dioxide in Heterogeneous Aquifers
+JO  - Environmental Science & Technology
+PY  - 2017
+VL  - 51
+IS  - 13
+PB  - American Chemical Society (ACS)
+DO  - 10.1021/acs.est.7b01540
+SP  - 7732
+EP  - 7741
+UR  - https://doi.org/10.1021/acs.est.7b01540
+ER  - 
+
+TY  - JOUR
+AU  - Amooie, Mohammad Amin
+AU  - Soltanian, Mohamad Reza
+AU  - Moortgat, Joachim
+TI  - Hydrothermodynamic mixing of fluids across phases in porous media
+JO  - Geophysical Research Letters
+PY  - 2017
+VL  - 44
+IS  - 8
+PB  - American Geophysical Union (AGU)
+DO  - 10.1002/2016GL072491
+SP  - 3624
+EP  - 3634
+UR  - https://doi.org/10.1002/2016GL072491
+ER  - 
+
+TY  - JOUR
+AU  - Amooie, Mohammad Amin
+AU  - Soltanian, Mohamad Reza
+AU  - Xiong, Fengyang
+AU  - Dai, Zhenxue
+AU  - Moortgat, Joachim
+TI  - Mixing and spreading of multiphase fluids in heterogeneous bimodal porous media
+JO  - Geomechanics and Geophysics for Geo-Energy and Geo-Resources
+PY  - 2017
+VL  - 3
+IS  - 3
+PB  - Springer Science and Business Media LLC
+DO  - 10.1007/s40948-017-0060-8
+SP  - 225
+EP  - 244
+UR  - https://doi.org/10.1007/s40948-017-0060-8
+ER  - 
+
+TY  - JOUR
+AU  - Xiong, Fengyang
+AU  - Jiang, Zhenxue
+AU  - Li, Peng
+AU  - Wang, Xiangzeng
+AU  - Bi, He
+AU  - Li, Yirun
+AU  - Wang, Ziyuan
+AU  - Amooie, Mohammad Amin
+AU  - Soltanian, Mohamad Reza
+AU  - Moortgat, Joachim
+TI  - Pore structure of transitional shales in the Ordos Basin, NW China: Effects of composition on gas storage capacity
+JO  - Fuel
+PY  - 2017
+VL  - 206
+PB  - Elsevier BV
+DO  - 10.1016/j.fuel.2017.05.083
+SP  - 504
+EP  - 515
+UR  - https://doi.org/10.1016/j.fuel.2017.05.083
+ER  - 
+
+TY  - JOUR
+AU  - Moortgat, Joachim
+TI  - Adaptive implicit finite element methods for multicomponent compressible flow in heterogeneous and fractured porous media
+JO  - Water Resources Research
+PY  - 2017
+VL  - 53
+IS  - 1
+PB  - American Geophysical Union (AGU)
+DO  - 10.1002/2016WR019644
+SP  - 73
+EP  - 92
+UR  - https://doi.org/10.1002/2016WR019644
+ER  - 
+
+TY  - JOUR
+AU  - Moortgat, Joachim
+AU  - Firoozabadi, Abbas
+TI  - Water Coning, Water, and CO2 Injection in Heavy-Oil Fractured Reservoirs
+JO  - SPE Reservoir Evaluation & Engineering
+PY  - 2017
+VL  - 20
+IS  - 01
+PB  - Society of Petroleum Engineers (SPE)
+DO  - 10.2118/183648-PA
+SP  - 168
+EP  - 183
+UR  - https://doi.org/10.2118/183648-PA
+ER  - 
+
+TY  - JOUR
+AU  - Soltanian, Mohamad Reza
+AU  - Amooie, Mohammad Amin
+AU  - Dai, Zhenxue
+AU  - Cole, David
+AU  - Moortgat, Joachim
+TI  - Critical Dynamics of Gravito-Convective Mixing in Geological Carbon Sequestration
+JO  - Scientific Reports
+PY  - 2016
+VL  - 6
+IS  - 1
+PB  - Springer Science and Business Media LLC
+DO  - 10.1038/srep35921
+SP  - 35921
+UR  - https://doi.org/10.1038/srep35921
+ER  - 
+
+TY  - JOUR
+AU  - Soltanian, Mohamad Reza
+AU  - Amooie, Mohammad Amin
+AU  - Cole, David R.
+AU  - Graham, David E.
+AU  - Hosseini, Seyyed Abolfazl
+AU  - Hovorka, Susan
+AU  - Pfiffner, Susan M.
+AU  - Phelps, Tommy J.
+AU  - Moortgat, Joachim
+TI  - Simulating the Cranfield geological carbon sequestration project with high-resolution static models and an accurate equation of state
+JO  - International Journal of Greenhouse Gas Control
+PY  - 2016
+VL  - 54
+PB  - Elsevier BV
+DO  - 10.1016/j.ijggc.2016.10.002
+SP  - 282
+EP  - 296
+UR  - https://doi.org/10.1016/j.ijggc.2016.10.002
+ER  - 
+
+TY  - JOUR
+AU  - Moortgat, Joachim
+AU  - Amooie, Mohammad Amin
+AU  - Soltanian, Mohamad Reza
+TI  - Implicit finite volume and discontinuous Galerkin methods for multicomponent flow in unstructured 3D fractured porous media
+JO  - Advances in Water Resources
+PY  - 2016
+VL  - 96
+PB  - Elsevier BV
+DO  - 10.1016/j.advwatres.2016.08.007
+SP  - 389
+EP  - 404
+UR  - https://doi.org/10.1016/j.advwatres.2016.08.007
+ER  - 
+
+TY  - JOUR
+AU  - Moortgat, Joachim
+AU  - Firoozabadi, Abbas
+TI  - Mixed-hybrid and vertex-discontinuous-Galerkin finite element modeling of multiphase compositional flow on 3D unstructured grids
+JO  - Journal of Computational Physics
+PY  - 2016
+VL  - 315
+PB  - Elsevier BV
+DO  - 10.1016/j.jcp.2016.03.054
+SP  - 476
+EP  - 500
+UR  - https://doi.org/10.1016/j.jcp.2016.03.054
+ER  - 
+
+TY  - JOUR
+AU  - Moortgat, Joachim
+TI  - Viscous and gravitational fingering in multiphase compositional and compressible flow
+JO  - Advances in Water Resources
+PY  - 2016
+VL  - 89
+PB  - Elsevier BV
+DO  - 10.1016/j.advwatres.2016.01.002
+SP  - 53
+EP  - 66
+UR  - https://doi.org/10.1016/j.advwatres.2016.01.002
+ER  - 
+
+TY  - JOUR
+AU  - Nasrabadi, Hadi
+AU  - Moortgat, Joachim
+AU  - Firoozabadi, Abbas
+TI  - New Three-Phase Multicomponent Compositional Model for Asphaltene Precipitation during CO2 Injection Using CPA-EOS
+JO  - Energy & Fuels
+PY  - 2016
+VL  - 30
+IS  - 4
+PB  - American Chemical Society (ACS)
+DO  - 10.1021/acs.energyfuels.5b02944
+SP  - 3306
+EP  - 3319
+UR  - https://doi.org/10.1021/acs.energyfuels.5b02944
+ER  - 
+
+TY  - JOUR
+AU  - Shahraeeni, Ebrahim
+AU  - Moortgat, Joachim
+AU  - Firoozabadi, Abbas
+TI  - High-resolution finite element methods for 3D simulation of compositionally triggered instabilities in porous media
+JO  - Computational Geosciences
+PY  - 2015
+VL  - 19
+IS  - 4
+PB  - Springer Science and Business Media LLC
+DO  - 10.1007/s10596-015-9501-z
+SP  - 899
+EP  - 920
+UR  - https://doi.org/10.1007/s10596-015-9501-z
+ER  - 
+
+TY  - JOUR
+AU  - Moortgat, Joachim
+AU  - Firoozabadi, Abbas
+TI  - Fickian Diffusion in Discrete-Fractured Media from Chemical Potential Gradients and Comparison to Experiment
+JO  - Energy & Fuels
+PY  - 2013
+VL  - 27
+IS  - 10
+PB  - American Chemical Society (ACS)
+DO  - 10.1021/ef401141q
+SP  - 5793
+EP  - 5805
+UR  - https://doi.org/10.1021/ef401141q
+ER  - 
+
+TY  - JOUR
+AU  - Moortgat, Joachim
+AU  - Firoozabadi, Abbas
+TI  - Higher-order compositional modeling of three-phase flow in 3D fractured porous media based on cross-flow equilibrium
+JO  - Journal of Computational Physics
+PY  - 2013
+VL  - 250
+PB  - Elsevier BV
+DO  - 10.1016/j.jcp.2013.05.009
+SP  - 425
+EP  - 445
+UR  - https://doi.org/10.1016/j.jcp.2013.05.009
+ER  - 
+
+TY  - JOUR
+AU  - Moortgat, Joachim
+AU  - Firoozabadi, Abbas
+TI  - Three-Phase Compositional Modeling With Capillarity in Heterogeneous and Fractured Media
+JO  - SPE Journal
+PY  - 2013
+VL  - 18
+IS  - 06
+PB  - Society of Petroleum Engineers (SPE)
+DO  - 10.2118/159777-PA
+SP  - 1150
+EP  - 1168
+UR  - https://doi.org/10.2118/159777-PA
+ER  - 
+
+TY  - JOUR
+AU  - Moortgat, Joachim
+AU  - Firoozabadi, Abbas
+AU  - Li, Zhidong
+AU  - Espósito, Rogério
+TI  - CO2 Injection in Vertical and Horizontal Cores: Measurements and Numerical Simulation
+JO  - SPE Journal
+PY  - 2013
+VL  - 18
+IS  - 02
+PB  - Society of Petroleum Engineers (SPE)
+DO  - 10.2118/135563-PA
+SP  - 331
+EP  - 344
+UR  - https://doi.org/10.2118/135563-PA
+ER  - 
+
+TY  - JOUR
+AU  - Laitin, David D.
+AU  - Moortgat, Joachim
+AU  - Robinson, Amanda Lea
+TI  - Geographic axes and the persistence of cultural diversity
+JO  - Proceedings of the National Academy of Sciences
+PY  - 2012
+VL  - 109
+IS  - 26
+PB  - National Academy of Sciences
+DO  - 10.1073/pnas.1205338109
+SP  - 10263
+EP  - 10268
+UR  - https://doi.org/10.1073/pnas.1205338109
+ER  - 
+
+TY  - JOUR
+AU  - Moortgat, Joachim
+AU  - Li, Zhidong
+AU  - Firoozabadi, Abbas
+TI  - Three‐phase compositional modeling of CO2 injection by higher‐order finite element methods with CPA equation of state for aqueous phase
+JO  - Water Resources Research
+PY  - 2012
+VL  - 48
+IS  - 12
+PB  - American Geophysical Union (AGU)
+DO  - 10.1029/2011WR011736
+SP  - 2011WR011736
+UR  - https://doi.org/10.1029/2011WR011736
+ER  - 
+
+TY  - JOUR
+AU  - Moortgat, Joachim
+AU  - Sun, Shuyu
+AU  - Firoozabadi, Abbas
+TI  - Compositional modeling of three‐phase flow with gravity using higher‐order finite element methods
+JO  - Water Resources Research
+PY  - 2011
+VL  - 47
+IS  - 5
+PB  - American Geophysical Union (AGU)
+DO  - 10.1029/2010WR009801
+SP  - 2010WR009801
+UR  - https://doi.org/10.1029/2010WR009801
+ER  - 
+
+TY  - JOUR
+AU  - Moortgat, Joachim
+AU  - Firoozabadi, Abbas
+TI  - Higher-order compositional modeling with Fickian diffusion in unstructured and anisotropic media
+JO  - Advances in Water Resources
+PY  - 2010
+VL  - 33
+IS  - 9
+PB  - Elsevier BV
+DO  - 10.1016/j.advwatres.2010.04.012
+SP  - 951
+EP  - 968
+UR  - https://doi.org/10.1016/j.advwatres.2010.04.012
+ER  - 
+
+TY  - JOUR
+AU  - Forsberg, Mats
+AU  - Brodin, Gert
+AU  - Marklund, Mattias
+AU  - Shukla, Padma K.
+AU  - Moortgat, Joachim
+TI  - Nonlinear interactions between gravitational radiation and modified Alfvén modes in astrophysical dusty plasmas
+JO  - Physical Review D
+PY  - 2006
+VL  - 74
+IS  - 6
+PB  - American Physical Society (APS)
+DO  - 10.1103/PhysRevD.74.064014
+SP  - 064014
+UR  - https://doi.org/10.1103/PhysRevD.74.064014
+ER  - 
+
+TY  - JOUR
+AU  - Moortgat, J.
+AU  - Marklund, M.
+TI  - Scalar perturbations in two-temperature cosmological plasmas
+JO  - Monthly Notices of the Royal Astronomical Society
+PY  - 2006
+VL  - 369
+IS  - 4
+PB  - Oxford University Press (OUP)
+DO  - 10.1111/j.1365-2966.2006.10419.x
+SP  - 1813
+EP  - 1821
+UR  - https://doi.org/10.1111/j.1365-2966.2006.10419.x
+ER  - 
+
+TY  - JOUR
+AU  - Moortgat, Joachim
+AU  - Kuijpers, Jan
+TI  - Scattering of magnetosonic waves in a relativistic and anisotropic magnetized plasma
+JO  - Monthly Notices of the Royal Astronomical Society
+PY  - 2006
+VL  - 368
+IS  - 3
+PB  - Oxford University Press (OUP)
+DO  - 10.1111/j.1365-2966.2006.10189.x
+SP  - 1110
+EP  - 1122
+UR  - https://doi.org/10.1111/j.1365-2966.2006.10189.x
+ER  - 
+
+TY  - JOUR
+AU  - Moortgat, J.
+AU  - Kuijpers, J.
+TI  - Gravitational waves in magnetized relativistic plasmas
+JO  - Physical Review D
+PY  - 2004
+VL  - 70
+IS  - 2
+PB  - American Physical Society (APS)
+DO  - 10.1103/PhysRevD.70.023001
+SP  - 023001
+UR  - https://doi.org/10.1103/PhysRevD.70.023001
+ER  - 
+
+TY  - JOUR
+AU  - Moortgat, J.
+AU  - Kuijpers, J.
+TI  - Gravitational and magnetosonic waves in gamma-ray bursts
+JO  - Astronomy & Astrophysics
+PY  - 2003
+VL  - 402
+IS  - 3
+PB  - EDP Sciences
+DO  - 10.1051/0004-6361:20030271
+SP  - 905
+EP  - 911
+UR  - https://doi.org/10.1051/0004-6361:20030271
+ER  - 
+
+TY  - CONF
+AU  - Amooie, Mohammad Amin
+TI  - A Robust Finite Element Simulator for Black-Oil and Fully Compositional Compressible Flow in Hydrocarbon Reservoirs
+T2  - SPE Annual Technical Conference and Exhibition
+PY  - 2017
+PB  - SPE
+DO  - 10.2118/189279-STU
+SP  - D023S099R001
+UR  - https://doi.org/10.2118/189279-STU
+ER  - 
+
+TY  - CONF
+AU  - Nasrabadi, Hadi
+AU  - Moortgat, Joachim
+AU  - Firoozabadi, Abbas
+TI  - A New Three-Phase Multicomponent Compositional Model for Asphaltene Precipitation Using CPA-EOS
+T2  - SPE Reservoir Simulation Symposium
+PY  - 2013
+PB  - SPE
+DO  - 10.2118/163587-MS
+SP  - SPE
+EP  - 163587-MS
+UR  - https://doi.org/10.2118/163587-MS
+ER  - 
+
+TY  - CONF
+AU  - Moortgat, Joachim
+AU  - Firoozabadi, Abbas
+TI  - Three-Phase Compositional Modeling with Capillarity in Heterogeneous and Fractured Media
+T2  - SPE Annual Technical Conference and Exhibition
+PY  - 2012
+PB  - SPE
+DO  - 10.2118/159777-MS
+SP  - SPE
+EP  - 159777-MS
+UR  - https://doi.org/10.2118/159777-MS
+ER  - 
+
+TY  - CONF
+AU  - Moortgat, Joachim
+AU  - Li, Zhidong
+AU  - Firoozabadi, Abbas
+TI  - Three-Phase Compositional Modeling of CO2 Injection by Higher-Order Finite Element Methods with CPA Equation of State
+T2  - SPE Reservoir Simulation Symposium
+PY  - 2011
+PB  - SPE
+DO  - 10.2118/141907-MS
+SP  - SPE
+EP  - 141907-MS
+UR  - https://doi.org/10.2118/141907-MS
+ER  - 
+
+TY  - CONF
+AU  - Moortgat, Joachim
+AU  - Firoozabadi, Abbas
+AU  - Li, Zhidong
+AU  - Espósito, Rogério
+TI  - Experimental Coreflooding and Numerical Modeling of CO2 Injection With Gravity and Diffusion Effects
+T2  - SPE Annual Technical Conference and Exhibition
+PY  - 2010
+PB  - SPE
+DO  - 10.2118/135563-MS
+SP  - SPE
+EP  - 135563-MS
+UR  - https://doi.org/10.2118/135563-MS
+ER  - 
+
+TY  - CONF
+AU  - Moortgat, Joachim
+AU  - Firoozabadi, Abbas
+AU  - Farshi, Mohammad Moravvej
+TI  - A New Approach to Compositional Modeling of CO2 Injection in Fractured Media Compared to Experimental Data
+T2  - SPE Annual Technical Conference and Exhibition
+PY  - 2009
+PB  - SPE
+DO  - 10.2118/124918-MS
+SP  - SPE
+EP  - 124918-MS
+UR  - https://doi.org/10.2118/124918-MS
+ER  - 
+
+TY  - CHAP
+AU  - Moortgat, Joachim
+AU  - Kuijpers, Jan
+TI  - Gravitational Wave Interactions with Magnetized Plasmas
+T2  - The Electromagnetic Spectrum of Neutron Stars
+PY  - 2005
+PB  - Springer-Verlag
+DO  - 10.1007/1-4020-3861-5_10
+SP  - 103
+EP  - 106
+UR  - https://doi.org/10.1007/1-4020-3861-5_10
+ER  - 
+
+TY  - CONF
+AU  - Moortgat, Joachim
+AU  - Kuijpers, Jan
+TI  - Indirect Visibility of Gravitational Waves in Magnetohydrodynamic Plasmas
+T2  - Proceedings of the 22nd Texas Symposium on Relativistic Astrophysics
+PY  - 2005
+CY  - Stanford, CA
+UR  - https://arxiv.org/abs/gr-qc/0503074
+ER  - 

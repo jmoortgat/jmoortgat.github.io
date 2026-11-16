@@ -17,3 +17,6 @@ BuckAI_Website/
 # Claude Code local state — settings, session locks, scheduled-task metadata.
 # All process-local; never useful to commit.
 .claude/
+
+# Cached API responses for tools/build_pub_links.py
+tools/.cache/
