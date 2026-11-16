@@ -637,47 +637,6 @@ strong { font-weight: 600; }
 }
 .patent-card p { font-size: 0.85rem; color: var(--muted); line-height: 1.6; }
 
-/* Proceedings (collapsible) */
-details.proceedings-details {
-  margin-top: 2.5rem;
-  border: 1px solid var(--border);
-  border-radius: var(--radius);
-}
-details.proceedings-details summary {
-  cursor: pointer;
-  padding: 1rem 1.25rem;
-  background: var(--surface);
-  border-radius: var(--radius);
-  font-size: 0.95rem;
-  font-weight: 600;
-  color: var(--text);
-  list-style: none;
-  display: flex;
-  align-items: center;
-  gap: 0.6rem;
-  user-select: none;
-}
-details.proceedings-details summary::before {
-  content: '▶';
-  font-size: 0.65em;
-  color: var(--accent);
-  transition: transform 0.2s;
-}
-details[open].proceedings-details summary::before { transform: rotate(90deg); }
-details.proceedings-details summary:hover { color: var(--accent); }
-.proceedings-body {
-  padding: 1rem 1.25rem 1.25rem;
-  border-top: 1px solid var(--border);
-}
-.proc-list { list-style: none; }
-.proc-item {
-  padding: 0.6rem 0;
-  border-bottom: 1px solid var(--border);
-  font-size: 0.88rem;
-  color: var(--text);
-  line-height: 1.6;
-}
-.proc-item:last-child { border-bottom: none; }
 
 /* ========================================
    TEACHING
