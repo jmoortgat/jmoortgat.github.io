@@ -879,3 +879,34 @@ footer a:hover { color: var(--accent); }
   .section { padding: 2.5rem 0; }
   .affiliations { padding: 1.25rem; }
 }
+
+/* ── Publication topic diagram + filter counts ── */
+.topic-figure {
+  margin: 0 0 1.25rem;
+  padding: 1rem;
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+}
+.topic-venn { width: 100%; display: flex; justify-content: center; }
+.topic-venn svg { max-width: 100%; height: auto; }
+.topic-venn .venn-set { cursor: pointer; }
+.topic-venn .venn-set:focus { outline: none; }
+.topic-venn .venn-set:focus path { stroke-width: 4px !important; }
+.topic-figure figcaption {
+  font-size: 0.82rem;
+  color: var(--muted);
+  margin-top: 0.5rem;
+  text-align: center;
+}
+.filter-count {
+  display: inline-block;
+  margin-left: 0.4rem;
+  padding: 0 0.4rem;
+  border-radius: 999px;
+  background: var(--border);
+  color: var(--text);
+  font-size: 0.72rem;
+  font-weight: 600;
+}
+.filter-btn.active .filter-count { background: rgba(13, 17, 23, 0.25); color: #0d1117; }
