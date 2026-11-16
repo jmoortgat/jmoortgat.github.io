@@ -262,6 +262,41 @@ def pdf_matches(url, title):
     return same_title(arxiv_title(m.group(1)), title) or same_title(title, arxiv_title(m.group(1)))
 
 
+def publisher_pdf(doi, loc):
+    """PDF URL for an open-access published version on the publisher's site
+    (or PubMed Central). Publishers such as ACS, Elsevier and Wiley block
+    automated downloads, so these links are trusted without fetching them."""
+    if doi.lower().startswith("10.1021/"):
+        # ACS's stable PDF address; its article-pdf/ links refuse direct requests
+        return "https://pubs.acs.org/doi/pdf/" + doi
+    if loc.get("pdf_url"):
+        return loc["pdf_url"]
+    land = loc.get("landing_page_url") or ""
+    if "pmc.ncbi.nlm.nih.gov/articles/" in land:
+        return land.rstrip("/") + "/pdf/"
+    if doi.lower().startswith("10.1016/"):
+        cr = get_json("https://api.crossref.org/works/" + urllib.parse.quote(doi), "crossref_" + doi)
+        pii = next((a for a in (cr or {}).get("message", {}).get("alternative-id", []) if a.startswith("S")), None)
+        if pii:
+            return f"https://www.sciencedirect.com/science/article/pii/{pii}/pdfft"
+    return None
+
+
+def trusted_pdfs(doi):
+    oa = get_json("https://api.openalex.org/works/doi:" + urllib.parse.quote(doi), "openalex_" + doi)
+    out = []
+    for loc in (oa or {}).get("locations", []):
+        # Only copies that are open by licence (CC) or deposited in PubMed Central;
+        # "free to read" copies without a licence must pass the download check.
+        in_pmc = "pmc.ncbi.nlm.nih.gov" in (loc.get("landing_page_url") or "")
+        licensed = (loc.get("license") or "").startswith("cc")
+        if loc.get("is_oa") and loc.get("version") == "publishedVersion" and (licensed or in_pmc):
+            url = publisher_pdf(doi, loc)
+            if url and url not in out:
+                out.append(url)
+    return out
+
+
 def pdf_candidates(doi):
     cands = []
     oa = get_json("https://api.openalex.org/works/doi:" + urllib.parse.quote(doi), "openalex_" + doi)
@@ -329,8 +364,11 @@ def main():
         all_ris.append(ris)
 
         pdf = None
-        for url in EXTRA_PDF.get(doi, []) + EXTRA_PDF.get(num, []) + (pdf_candidates(doi) if doi else []):
-            if pdf_matches(url, md["title"]) and is_pdf(url):
+        # 1. manual links; 2. the publisher's own open-access version (trusted);
+        # 3. any other copy that verifiably serves a PDF (arXiv, OSTI, ...)
+        trusted = trusted_pdfs(doi) if doi else []
+        for url in EXTRA_PDF.get(doi, []) + EXTRA_PDF.get(num, []) + trusted + (pdf_candidates(doi) if doi else []):
+            if url in trusted or (pdf_matches(url, md["title"]) and is_pdf(url)):
                 pdf = url
                 break
         report.append((num, key, pdf or ""))
