@@ -294,6 +294,15 @@ def trusted_pdfs(doi):
             url = publisher_pdf(doi, loc)
             if url and url not in out:
                 out.append(url)
+    # Brand-new papers are often not in OpenAlex yet: fall back to the CC licence
+    # the publisher registers with Crossref for the version of record.
+    if not out:
+        cr = get_json("https://api.crossref.org/works/" + urllib.parse.quote(doi), "crossref_" + doi)
+        lic = (cr or {}).get("message", {}).get("license", [])
+        if any("creativecommons.org" in l.get("URL", "") and l.get("content-version") == "vor" for l in lic):
+            url = publisher_pdf(doi, {})
+            if url:
+                out.append(url)
     return out
 
 
