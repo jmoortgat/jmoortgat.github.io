@@ -1,0 +1,46 @@
+# Weekly check for newly published papers that are not on publications.html.
+# When it finds one, it opens a GitHub issue that mentions @jmoortgat, which
+# GitHub sends as an email. Weeks with nothing new produce no issue and no email.
+name: Check for new papers
+
+on:
+  schedule:
+    - cron: "0 12 * * 1"   # Mondays 12:00 UTC (7-8 am in Columbus)
+  workflow_dispatch:
+    inputs:
+      dry_run:
+        description: "Only print the result; do not open an issue"
+        type: boolean
+        default: true
+
+permissions:
+  contents: read
+  issues: write
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Look for new papers (OpenAlex + Crossref)
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: python3 tools/check_new_papers.py --out alert.md
+
+      - name: Open an alert issue
+        if: ${{ hashFiles('alert.md') != '' && !(github.event_name == 'workflow_dispatch' && inputs.dry_run) }}
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          gh label create new-paper --color 38d9c0 --description "Newly published paper to add to the website" --force
+          gh issue create --title "New paper(s) to add to the website ($(date -u +%Y-%m-%d))" \
+            --label new-paper --body-file alert.md
+
+      - name: Show what would have been sent (dry run)
+        if: ${{ hashFiles('alert.md') != '' && github.event_name == 'workflow_dispatch' && inputs.dry_run }}
+        run: cat alert.md
